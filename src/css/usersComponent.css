@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 650px;
+}
+
+.loading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loading-image{
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}

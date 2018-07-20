@@ -1,0 +1,49 @@
+.users-table {
+
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.users-table__block {
+    padding:  5px 12px;
+    border: 1px solid black;
+    position: relative;
+    cursor: pointer;
+}
+.users-table__header {
+    padding:  5px 12px;
+    border: 2px solid black;
+    background-color: lightslategrey;
+    position: relative;
+    cursor: pointer;
+}
+.users-table__row {
+    cursor: pointer;
+}
+.users-table__row__active{
+    cursor: pointer;
+    background-color: blue;
+}
+.users-table__header_desc::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color:  black;
+    border-bottom-width: 0;
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%);
+}
+.users-table__header_asc::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color:  black;
+    border-bottom-width: 0;
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%) rotate(180deg);
+}

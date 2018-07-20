@@ -1,0 +1,23 @@
+.pagination {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 7px 0 0 0;
+}
+
+.pagination__item {
+    padding: 10px;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+.pagination__item:hover {
+    background-color: silver;
+}
+.pagination__item_disabled{
+     color: gray;
+     cursor: not-allowed;
+ }
+.pagination__item_active, .pagination__item_active:hover{
+   background-color: blue;
+}
